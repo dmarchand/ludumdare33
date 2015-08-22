@@ -8,13 +8,13 @@ Stupid heroes sometimes enter the dungeon like jerks to steal your treasure and 
 
 Go eat them before they get your treasure!
 
-Defeat Conditions:
+## Defeat Conditions:
 Treasure all gone
 
-Win Conditions:
+## Win Conditions:
 None. Arcade-y
 
-Gameplay:
+## Gameplay:
 Free movement in a fixed dungeon (no procedural in game jam :( )
 
 Heroes enter the dungeon at fixed entry points like a tower defense
@@ -28,5 +28,5 @@ Score measured on heroes killed and/or time elapsed
 Bigger and more heroes spawn as more time elapses
 
 
-Unknown:
+## Unknown:
 Do you level up in any way? There probably has to be some minor decisions here. Perhaps run speed vs strength
