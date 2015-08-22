@@ -108,6 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Power: 1
   Speed: 4
+  Gold: 999999
 --- !u!114 &11434486
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -119,6 +120,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e69d1f8f8efa3ac4f8d75e200f7f22bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Cost: 100
+  FreezeDuration: 2
+  Key: q
+  Trap: {fileID: 127090, guid: f3a4b33eaa635644383f47178719614d, type: 2}
 --- !u!114 &11464626
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -176,7 +181,11 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: Gold
+      value: 999999
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 166962}

@@ -5,6 +5,7 @@ public class PlayerModel : MonoBehaviour {
 
     public float Power = 1f;
     public float Speed = 3f;
+    public int Gold;
 
     private MoveOnAxisInput moveOnAxisInput;
 
