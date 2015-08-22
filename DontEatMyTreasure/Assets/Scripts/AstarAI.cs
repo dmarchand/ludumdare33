@@ -23,6 +23,13 @@ public class AstarAI : MonoBehaviour
     //The waypoint we are currently moving towards
     private int currentWaypoint = 0;
 
+    private bool isPaused;
+
+    public void Pause(bool pause)
+    {
+        isPaused = pause;
+    }
+
     public void Start()
     {
         seeker = GetComponent<Seeker>();
@@ -44,7 +51,7 @@ public class AstarAI : MonoBehaviour
 
     public void FixedUpdate()
     {
-        if (path == null)
+        if (path == null || isPaused)
         {
             //We have no path to move after yet
             return;
