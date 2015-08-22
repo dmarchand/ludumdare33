@@ -29,4 +29,4 @@ Bigger and more heroes spawn as more time elapses
 
 
 ## Unknown:
-Do you level up in any way? There probably has to be some minor decisions here. Perhaps run speed vs strength
+Do you level up in any way? There probably has to be some minor decisions here. Perhaps run speed vs strength. I also like the idea of picking a new monster. Perhaps a static UI that takes up 33% of the right side of the screen with stats like heroes killed, time elapsed, and choices about really simple upgrades.
