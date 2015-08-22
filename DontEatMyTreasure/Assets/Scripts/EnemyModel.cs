@@ -5,6 +5,8 @@ public class EnemyModel : MonoBehaviour {
 
     public float Speed;
     public float MaxHP, CurrentHP;
+    public string Name;
+    public GameObject HealthPanel;
 
     private AstarAI ai;
 
