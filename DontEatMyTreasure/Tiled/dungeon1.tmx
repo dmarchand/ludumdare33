@@ -8,7 +8,7 @@
    <property name="unity:layer" value="Ground"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJw7ysjAcHQUj+JRPIpHADZlQsX0thfGHin+pbe9o3gUj+JRPIpH8SgmHQMAwC+v1g==
+   eJztzaEBACAIADDkJ/9P/GUmUnFheXUiCuADNzvvrhcAmHvug69H
   </data>
  </layer>
  <layer name="Obstacles" width="30" height="30">
@@ -21,10 +21,10 @@
  </layer>
  <layer name="Spawns" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBh4cJJxaJo9CkbBKBgFo2D4AHrUF6N10igYBaNgFJAHRvsLtAMAwgEEvQ==
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
   </data>
  </layer>
- <layer name="Treasure" width="30" height="30">
+ <layer name="Treasure" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzTENAAAIwDBwhn9VHGjgILTJ7kUAsK1y+vIFAG5olhwBBQ==
   </data>

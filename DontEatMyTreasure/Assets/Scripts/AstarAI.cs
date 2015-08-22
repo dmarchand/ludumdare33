@@ -6,10 +6,8 @@ using Pathfinding;
 
 public class AstarAI : MonoBehaviour
 {
-    //The point to move to
-    public Transform target;
-
     private Seeker seeker;
+    private GameObject CurrentTarget;
 
     //The calculated path
     public Path path;
@@ -33,15 +31,46 @@ public class AstarAI : MonoBehaviour
     public void UnPause()
     {
         isPaused = false;
-        seeker.StartPath(transform.position, target.position, OnPathComplete);
+        seeker.StartPath(transform.position, CurrentTarget.transform.position, OnPathComplete);
+    }
+
+    void NewPath()
+    {
+        var targets = GameObject.FindGameObjectsWithTag("Treasure");
+
+        if (targets.Length <= 0)
+        {
+            //gg
+            Debug.Log("Game Over");
+            Application.LoadLevel(0);
+            return;
+        }
+
+        float shortestDist = 999999999999999999f;
+        GameObject shortestDistTarget = null;
+
+        foreach (var target in targets)
+        {
+
+            float currentDist = Mathf.Abs(Vector3.Distance(this.transform.position, target.transform.position));
+            if (currentDist < shortestDist)
+            {
+                shortestDist = currentDist;
+                shortestDistTarget = target;
+            }
+        }
+
+        CurrentTarget = shortestDistTarget;
+        CurrentTarget.GetComponent<TreasureChest>().OnTreasureOpened += NewPath;
+        //Start a new path to the targetPosition, return the result to the OnPathComplete function
+        seeker.StartPath(transform.position, CurrentTarget.transform.position, OnPathComplete);
     }
 
     public void Start()
     {
         seeker = GetComponent<Seeker>();
 
-        //Start a new path to the targetPosition, return the result to the OnPathComplete function
-        seeker.StartPath(transform.position, target.position, OnPathComplete);
+        NewPath();
     }
 
     public void OnPathComplete(Path p)
