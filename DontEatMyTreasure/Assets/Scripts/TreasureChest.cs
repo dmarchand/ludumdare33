@@ -50,6 +50,9 @@ public class TreasureChest : MonoBehaviour {
             opened = true;
             this.tag = "Untagged";
             spriteRenderer.sprite = OpenSprite;
+            Destroy(enemy.HealthPanel.gameObject);
+            Destroy(enemy.gameObject);
+
 
             if (OnTreasureOpened != null)
             {

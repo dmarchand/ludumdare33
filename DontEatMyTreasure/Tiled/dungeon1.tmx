@@ -1,49 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="24" tileheight="24" nextobjectid="14">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="28" height="30" tilewidth="24" tileheight="24" nextobjectid="52">
  <tileset firstgid="1" name="oryx_16bit_fantasy_world" tilewidth="24" tileheight="24">
   <image source="../../../SmallGames/LicensedAssets/Oryx/oryx_16bit_fantasy_world.png" width="1366" height="1007"/>
  </tileset>
- <layer name="Ground" width="30" height="30">
+ <layer name="Ground" width="28" height="30">
   <properties>
    <property name="unity:layer" value="Ground"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJztzaEBACAIADDkJ/9P/GUmUnFheXUiCuADNzvvrhcAmHvug69H
+   eJzjZmBg4Ibio4y0wdwM2DEu9TwMxOFR+wjbSaxduOwkxa6BSi+j9lHPPkJpjxh1g9l/o/aNppdR+0bTy3AJz+FkH73bL/S2j1BaH+rtz8FiHzXTJwCBPbNq
   </data>
  </layer>
- <layer name="Obstacles" width="30" height="30">
+ <layer name="Obstacles" width="28" height="30">
   <properties>
    <property name="unity:layer" value="Obstacles"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJzt1cEKgCAQBFD7/1+zEDUK+plW2EPEdAl2oJiBvXjYh6JunVKaA2sDa82qWEXmAP0LwUX9GW63/osb2c95J7gojP3K/a5bL3d1JPufEO0+vU25/3A7mDUrwX0buXLlypUr9+6iWRZdY1aeW6Jxxw==
+   eJztVm0KgDAIdfc/WxBrEXSa6EdMRF9z1ViUIGxTeft4OomyxEA0CF2UNUs13ymQKaNi09buim+Nl8T59/udHXg18Xw/nrPVxMv9JAdXDpXxXr5cFS9fWuLxfER5yG3y/jx4pW+P/Dx4nC+I18iv5/drjRcNHkRl/iRf9jGy1eJZPEigDv18sW2IB6V+b6kvK6if3PbzJYvWf3j/9577l9Z4Wr+E8u5q/Bf6a5TLZ6r5Sn5uOKbAlQ==
   </data>
  </layer>
- <layer name="Spawns" width="30" height="30">
+ <layer name="Spawns" width="28" height="30">
   <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+   eJztwQENAAAAwqD3T+3sARQAAAA3DSAAAQ==
   </data>
  </layer>
- <layer name="Treasure" width="30" height="30" visible="0">
+ <layer name="Treasure" width="28" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztzTENAAAIwDBwhn9VHGjgILTJ7kUAsK1y+vIFAG5olhwBBQ==
+   eJztzTENAAAIwDBwhn9VHIQXAaRNdi8CgFU5ff0BALcG/s0BBQ==
   </data>
  </layer>
  <objectgroup name="Obstacles">
   <properties>
    <property name="unity:layer" value="Obstacles"/>
   </properties>
-  <object id="1" x="0" y="0" width="720" height="24"/>
-  <object id="3" x="696" y="24" width="24" height="696"/>
-  <object id="4" x="576" y="24" width="24" height="72"/>
-  <object id="5" x="600" y="72" width="24" height="24"/>
-  <object id="6" x="648" y="72" width="48" height="24"/>
-  <object id="7" x="360" y="216" width="48" height="24"/>
-  <object id="8" x="456" y="216" width="48" height="24"/>
-  <object id="9" x="480" y="240" width="24" height="120"/>
-  <object id="10" x="360" y="240" width="24" height="120"/>
-  <object id="11" x="384" y="336" width="96" height="24"/>
-  <object id="12" x="0" y="24" width="24" height="696"/>
-  <object id="13" x="24" y="696" width="672" height="24"/>
+  <object id="15" x="72" y="0" width="528" height="24"/>
+  <object id="16" x="384" y="24" width="24" height="120"/>
+  <object id="17" x="408" y="120" width="96" height="24"/>
+  <object id="18" x="480" y="72" width="24" height="48"/>
+  <object id="19" x="456" y="24" width="24" height="72"/>
+  <object id="20" x="576" y="24" width="24" height="72"/>
+  <object id="21" x="552" y="72" width="24" height="72"/>
+  <object id="22" x="576" y="120" width="24" height="456"/>
+  <object id="23" x="552" y="576" width="24" height="72"/>
+  <object id="24" x="552" y="552" width="24" height="24"/>
+  <object id="25" x="576" y="624" width="24" height="96"/>
+  <object id="26" x="72" y="696" width="504" height="24"/>
+  <object id="27" x="168" y="552" width="336" height="24"/>
+  <object id="28" x="480" y="576" width="24" height="72"/>
+  <object id="29" x="456" y="624" width="24" height="72"/>
+  <object id="30" x="192" y="624" width="24" height="72"/>
+  <object id="31" x="168" y="576" width="24" height="72"/>
+  <object id="32" x="96" y="576" width="24" height="72"/>
+  <object id="33" x="72" y="552" width="48" height="24"/>
+  <object id="34" x="72" y="624" width="24" height="72"/>
+  <object id="35" x="72" y="120" width="24" height="432"/>
+  <object id="36" x="72" y="24" width="24" height="72"/>
+  <object id="37" x="96" y="72" width="24" height="72"/>
+  <object id="38" x="192" y="24" width="24" height="72"/>
+  <object id="39" x="168" y="72" width="24" height="72"/>
+  <object id="40" x="192" y="120" width="192" height="24"/>
+  <object id="41" x="264" y="24" width="24" height="96"/>
+  <object id="42" x="168" y="192" width="336" height="24"/>
+  <object id="43" x="480" y="216" width="24" height="24"/>
+  <object id="44" x="408" y="216" width="96" height="48"/>
+  <object id="45" x="168" y="216" width="96" height="48"/>
+  <object id="46" x="312" y="312" width="48" height="72"/>
+  <object id="47" x="168" y="312" width="96" height="72"/>
+  <object id="48" x="168" y="432" width="96" height="72"/>
+  <object id="49" x="264" y="480" width="240" height="24"/>
+  <object id="50" x="408" y="432" width="96" height="48"/>
+  <object id="51" x="408" y="312" width="96" height="72"/>
  </objectgroup>
 </map>
