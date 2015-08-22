@@ -24,8 +24,10 @@ public class Director : MonoBehaviour {
 
     void NextWave()
     {
+        Debug.Log("Wave " + currentWave);
         if (currentWave >= Waves.Length)
         {
+            Debug.Log("Victory!");
             if (OnLevelComplete != null)
             {
                 OnLevelComplete();
