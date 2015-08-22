@@ -19,4 +19,16 @@ public class EnemyModel : MonoBehaviour {
 	void Update () {
         ai.speed = Speed;
 	}
+
+    public void TakeDamage(float damage)
+    {
+        CurrentHP -= damage;
+        GetComponent<FlashOnDamage>().Hit();
+
+        if (CurrentHP <= 0)
+        {
+            Destroy(HealthPanel.gameObject);
+            Destroy(gameObject);
+        }
+    }
 }

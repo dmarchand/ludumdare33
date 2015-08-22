@@ -51,17 +51,11 @@ public class GetsKnockedBack : MonoBehaviour
         var heading = transform.position - player.transform.position;
 
         AddImpact(heading, 4);
-        GetComponent<FlashOnDamage>().Hit();
+        
 
         var enemyModel = GetComponent<EnemyModel>();
 
-        enemyModel.CurrentHP -= player.Power;
-
-        if (enemyModel.CurrentHP <= 0)
-        {
-            Destroy(enemyModel.HealthPanel.gameObject);
-            Destroy(enemyModel.gameObject);
-        }
+        enemyModel.TakeDamage(player.Power);
 
         collided = true;
     }

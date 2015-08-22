@@ -1,15 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class UsesIceTrap : MonoBehaviour {
+public class UsesIceTrap : UsesTrap {
 
-    public int Cost = 100;
+
     public float FreezeDuration = 2f;
-    public string Key = "q";
-    public GameObject Trap;
-    
 
-    private PlayerModel playerModel;
+
+
 
 	// Use this for initialization
 	void Start () {
