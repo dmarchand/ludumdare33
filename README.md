@@ -27,6 +27,8 @@ Score measured on heroes killed and/or time elapsed
 
 Bigger and more heroes spawn as more time elapses
 
+Sometimes other cool monster friends show up to help maybe, so the dungeon doesn't seem so lonely
+
 
 ## Unknown:
 Do you level up in any way? There probably has to be some minor decisions here. Perhaps run speed vs strength. I also like the idea of picking a new monster. Perhaps a static UI that takes up 33% of the right side of the screen with stats like heroes killed, time elapsed, and choices about really simple upgrades.
