@@ -25,9 +25,15 @@ public class AstarAI : MonoBehaviour
 
     private bool isPaused;
 
-    public void Pause(bool pause)
+    public void Pause()
     {
-        isPaused = pause;
+        isPaused = true;
+    }
+
+    public void UnPause()
+    {
+        isPaused = false;
+        seeker.StartPath(transform.position, target.position, OnPathComplete);
     }
 
     public void Start()

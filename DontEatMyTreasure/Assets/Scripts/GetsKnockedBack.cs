@@ -6,6 +6,7 @@ public class GetsKnockedBack : MonoBehaviour
 {
     float mass = 1.0F; 
     Vector3 impact = Vector3.zero;
+    bool active = false;
 
     // Update is called once per frame
     void Update()
@@ -15,9 +16,10 @@ public class GetsKnockedBack : MonoBehaviour
         {
             transform.position += impact * Time.deltaTime;
         }
-        else
+        else if (active)
         {
-            GetComponent<AstarAI>().Pause(false);
+            GetComponent<AstarAI>().UnPause();
+            active = false;
         }
 
         impact = Vector3.Lerp(impact, Vector3.zero, 5 * Time.deltaTime);
@@ -28,6 +30,7 @@ public class GetsKnockedBack : MonoBehaviour
         dir.Normalize();
         if (dir.y < 0) dir.y = -dir.y;
         impact += dir.normalized * force / mass;
-        GetComponent<AstarAI>().Pause(true);
+        GetComponent<AstarAI>().Pause();
+        active = true;
     }
 }

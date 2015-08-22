@@ -22,6 +22,7 @@ public class CollideWithEnemy : MonoBehaviour {
             var heading = gkb.transform.position - transform.position;
 
             gkb.AddImpact(heading, 6);
+            gkb.GetComponent<FlashOnDamage>().Hit();
         }
     }
 }
