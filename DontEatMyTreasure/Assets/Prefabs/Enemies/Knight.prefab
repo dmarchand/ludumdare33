@@ -35,7 +35,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 182600}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25.1666279, y: 2.80938911, z: 0}
+  m_LocalPosition: {x: 26.2668056, y: -3.08443427, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -216,9 +216,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d2490a241361e44e8d0dc046d9f5ed0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 2
-  MaxHP: 5
-  CurrentHP: 5
+  Speed: .5
+  MaxHP: 8
+  CurrentHP: 8
   Name: Knight
   Gold: 5
   HealthPanel: {fileID: 0}
@@ -257,15 +257,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: Speed
-      value: 2
+      value: .5
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: MaxHP
-      value: 5
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: CurrentHP
-      value: 5
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: Gold

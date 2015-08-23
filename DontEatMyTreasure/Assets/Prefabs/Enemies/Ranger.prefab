@@ -189,9 +189,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d2490a241361e44e8d0dc046d9f5ed0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 2
-  MaxHP: 5
-  CurrentHP: 5
+  Speed: 5
+  MaxHP: 1
+  CurrentHP: 1
   Name: Ranger
   Gold: 5
   HealthPanel: {fileID: 0}
@@ -257,15 +257,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: Speed
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: MaxHP
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: CurrentHP
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: Gold
@@ -273,7 +273,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: Name
-      value: Ranger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_SortingOrder
