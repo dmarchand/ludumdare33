@@ -66,7 +66,7 @@ public class GetsKnockedBack : MonoBehaviour
         if (IsBeingKnockedBack) return;
 
         dir.Normalize();
-        if (dir.y < 0) dir.y = -dir.y;
+        //if (dir.y < 0) dir.y = -dir.y;
         impact += dir.normalized * force / mass;
         GetComponent<AstarAI>().Pause();
         IsBeingKnockedBack = true;
