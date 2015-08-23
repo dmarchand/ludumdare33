@@ -6,4 +6,7 @@ public abstract class UsesTrap : MonoBehaviour {
     public string Key = "q";
     public GameObject Trap;
     protected PlayerModel playerModel;
+    protected int BaseCost;
+    protected Director Director;
+   
 }

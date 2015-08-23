@@ -16,12 +16,12 @@ public class SpeedUpgrader : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        
 
-        if (player.SpeedLevel < player.SpeedCosts.Length)
+
+        if (player.Level < player.LevelCosts.Length)
         {
             GetComponent<Button>().enabled = Clickable();
-            int upgradeCost = player.SpeedCosts[player.SpeedLevel];
+            int upgradeCost = player.LevelCosts[player.Level];
             text.text = "Upgrade: " + upgradeCost;
         }
         else
@@ -33,19 +33,19 @@ public class SpeedUpgrader : MonoBehaviour {
 
     public void Click()
     {
-        int upgradeCost = player.SpeedCosts[player.SpeedLevel];
+        int upgradeCost = player.LevelCosts[player.Level];
 
         if (player.Gold >= upgradeCost)
         {
             player.Gold -= upgradeCost;
-            player.SpeedLevel++;
+            player.Level++;
             player.Speed++;
         }
     }
 
     bool Clickable()
     {
-        int upgradeCost = player.SpeedCosts[player.SpeedLevel];
+        int upgradeCost = player.LevelCosts[player.Level];
         return player.Gold >= upgradeCost;
     }
 }

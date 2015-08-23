@@ -20,10 +20,10 @@ public class PowerUpgrader : MonoBehaviour {
     {
 
 
-        if (player.SpeedLevel < player.SpeedCosts.Length)
+        if (player.Level < player.LevelCosts.Length)
         {
             GetComponent<Button>().enabled = Clickable();
-            int upgradeCost = player.PowerCosts[player.PowerLevel];
+            int upgradeCost = player.LevelCosts[player.Level];
             text.text = "Upgrade: " + upgradeCost;
         }
         else
@@ -35,19 +35,19 @@ public class PowerUpgrader : MonoBehaviour {
 
     public void Click()
     {
-        int upgradeCost = player.PowerCosts[player.PowerLevel];
+        int upgradeCost = player.LevelCosts[player.Level];
 
         if (player.Gold >= upgradeCost)
         {
             player.Gold -= upgradeCost;
-            player.PowerLevel++;
+            player.Level++;
             player.Power++;
         }
     }
 
     bool Clickable()
     {
-        int upgradeCost = player.PowerCosts[player.PowerLevel];
+        int upgradeCost = player.LevelCosts[player.Level];
         return player.Gold >= upgradeCost;
     }
 }

@@ -7,10 +7,9 @@ public class PlayerModel : MonoBehaviour {
     public float Speed = 3f;
 
     [HideInInspector]
-    public int SpeedLevel, PowerLevel;
+    public int Level;
 
-    public int[] SpeedCosts;
-    public int[] PowerCosts;
+    public int[] LevelCosts;
 
     public int Gold;
 
