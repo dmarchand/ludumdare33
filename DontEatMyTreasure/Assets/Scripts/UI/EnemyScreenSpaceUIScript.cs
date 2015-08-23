@@ -13,6 +13,8 @@ public class EnemyScreenSpaceUIScript : MonoBehaviour
     public GameObject healthPanel;
     private Text enemyName;
     private Slider healthSlider;
+    private int framesElapsed;
+    private int framesUntilShow = 1;
 
     void Start()
     {
@@ -28,18 +30,30 @@ public class EnemyScreenSpaceUIScript : MonoBehaviour
 
         healthSlider = healthPanel.GetComponentInChildren<Slider>();
         healthSlider.enabled = false;
+        healthSlider.gameObject.SetActive(false);
         enemyName.enabled = false;
+
     }
 
     void Update()
     {
+        if (framesElapsed < framesUntilShow)
+        {
+            framesElapsed++;
+            return;
+        }
+        else
+        {
+            healthSlider.enabled = true;
+            enemyName.enabled = true;
+            healthSlider.gameObject.SetActive(true);
+        }
         healthSlider.value = enemyModel.CurrentHP / (float)enemyModel.MaxHP;
 
         Vector3 worldPos = new Vector3(transform.position.x, transform.position.y + healthPanelOffset, transform.position.z);
         Vector3 screenPos = Camera.main.WorldToScreenPoint(worldPos);
         healthPanel.transform.position = new Vector3(screenPos.x, screenPos.y, screenPos.z);
 
-        healthSlider.enabled = true;
-        enemyName.enabled = true;
+
     }
 }
