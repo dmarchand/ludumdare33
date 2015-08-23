@@ -8,7 +8,7 @@
    <property name="unity:layer" value="Ground"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJzjZmBg4Ibio4y0wdwM2DEu9TwMxOFR+wjbSaxduOwkxa6BSi+j9lHPPkJpjxh1g9l/o/aNppdR+0bTy3AJz+FkH73bL/S2j1BaH+rtz8FiHzXTJwCBPbNq
+   eJzjZmBg4Ibio4zYMQ8DcRiXfm4G7HjUPurah81OYu3CZScpdlELj9o3cPYRSnvEqBvM/hu1bzS9jNo3ml6GS3gOJ/vo3X6ht32E0vpQb38OR/sAAjCk4g==
   </data>
  </layer>
  <layer name="Obstacles" width="28" height="30">
@@ -16,7 +16,7 @@
    <property name="unity:layer" value="Obstacles"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJztVm0KgDAIdfc/WxBrEXSa6EdMRF9z1ViUIGxTeft4OomyxEA0CF2UNUs13ymQKaNi09buim+Nl8T59/udHXg18Xw/nrPVxMv9JAdXDpXxXr5cFS9fWuLxfER5yG3y/jx4pW+P/Dx4nC+I18iv5/drjRcNHkRl/iRf9jGy1eJZPEigDv18sW2IB6V+b6kvK6if3PbzJYvWf3j/9577l9Z4Wr+E8u5q/Bf6a5TLZ6r5Sn5uOKbAlQ==
+   eJztVtEKgCAMXP//bUGYEfQ10ZNjzMuzEosGQrWN0+2aJ5IsDCKjWfMgxcbmT47P+3ZXfmu8aM5/1Gch8Gry9X6Ys9Xk2/1Ep/9ny+azfLlqLF9a4un/aQU11D5bPwavtPcojsHTfEG8RnE99681XsjwIDjvT/LleEa+WrwcDyKYQz9f8j7Eg9K4t8yXDcxP7fv5kszTH+z93rN+aY3n6SVWX1/VS1/T10hPnllJ/g7+ObBp
   </data>
  </layer>
  <layer name="Spawns" width="28" height="30">
