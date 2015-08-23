@@ -5,6 +5,13 @@ public class PlayerModel : MonoBehaviour {
 
     public float Power = 1f;
     public float Speed = 3f;
+
+    [HideInInspector]
+    public int SpeedLevel, PowerLevel;
+
+    public int[] SpeedCosts;
+    public int[] PowerCosts;
+
     public int Gold;
 
     private MoveOnAxisInput moveOnAxisInput;
