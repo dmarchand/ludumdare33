@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Director : MonoBehaviour {
 
+    public int GoldBonusPerChestRemaining;
     public Wave[] Waves;
     public float WaveDelay = 25f;
     public float WaveTimeRemainingDisplay;
@@ -13,9 +14,11 @@ public class Director : MonoBehaviour {
     public event OnLevelCompleteEvent OnLevelComplete;
 
     private bool countingDown;
+    private PlayerModel player;
 
 	// Use this for initialization
 	void Start () {
+        player = GameObject.Find("Player").GetComponent<PlayerModel>();
         NextWave();   
 	}
 
@@ -51,6 +54,10 @@ public class Director : MonoBehaviour {
             }
             return;
         }
+
+        int chestsRemaining = GameObject.FindGameObjectsWithTag("Treasure").Length;
+        player.Gold += chestsRemaining * (GoldBonusPerChestRemaining + CurrentWave * 10);
+        
 
         Waves[CurrentWave].WaveBegin();
         CurrentWaveDisplay++;
