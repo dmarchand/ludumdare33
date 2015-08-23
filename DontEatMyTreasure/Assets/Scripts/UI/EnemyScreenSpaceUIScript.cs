@@ -27,6 +27,8 @@ public class EnemyScreenSpaceUIScript : MonoBehaviour
         enemyName.text = enemyModel.Name;
 
         healthSlider = healthPanel.GetComponentInChildren<Slider>();
+        healthSlider.enabled = false;
+        enemyName.enabled = false;
     }
 
     void Update()
@@ -36,5 +38,8 @@ public class EnemyScreenSpaceUIScript : MonoBehaviour
         Vector3 worldPos = new Vector3(transform.position.x, transform.position.y + healthPanelOffset, transform.position.z);
         Vector3 screenPos = Camera.main.WorldToScreenPoint(worldPos);
         healthPanel.transform.position = new Vector3(screenPos.x, screenPos.y, screenPos.z);
+
+        healthSlider.enabled = true;
+        enemyName.enabled = true;
     }
 }

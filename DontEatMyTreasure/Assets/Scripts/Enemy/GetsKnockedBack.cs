@@ -8,7 +8,7 @@ public class GetsKnockedBack : MonoBehaviour
     Vector3 impact = Vector3.zero;
     public bool IsBeingKnockedBack = false;
 
-    float invincibilityTime = 1f;
+    float invincibilityTime = .25f;
     float timeSinceCollision = 0f;
     bool collided = false;
     
