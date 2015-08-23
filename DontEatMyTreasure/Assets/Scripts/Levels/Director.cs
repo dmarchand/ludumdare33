@@ -4,28 +4,45 @@ using System.Collections;
 public class Director : MonoBehaviour {
 
     public Wave[] Waves;
-    public float WaveDelay = 5f;
-    int currentWave = 0;
+    public float WaveDelay = 25f;
+    public float WaveTimeRemainingDisplay;
+    public int CurrentWave = 0;
+    public int CurrentWaveDisplay = 0;
 
     public delegate void OnLevelCompleteEvent();
     public event OnLevelCompleteEvent OnLevelComplete;
+
+    private bool countingDown;
 
 	// Use this for initialization
 	void Start () {
         NextWave();   
 	}
 
+    void Update()
+    {
+        if (countingDown)
+        {
+            WaveTimeRemainingDisplay -= Time.deltaTime;
+            if (WaveTimeRemainingDisplay <= 0)
+            {
+                countingDown = false;
+                WaveTimeRemainingDisplay = 0;
+            }
+        }
+    }
 
     void NextWaveInit()
     {
-        currentWave++;
+        CurrentWave++;
+        WaveTimeRemainingDisplay = WaveDelay;
+        countingDown = true;
         Invoke("NextWave", WaveDelay);
     }
 
     void NextWave()
     {
-        Debug.Log("Wave " + currentWave);
-        if (currentWave >= Waves.Length)
+        if (CurrentWave >= Waves.Length)
         {
             Debug.Log("Victory!");
             if (OnLevelComplete != null)
@@ -35,8 +52,9 @@ public class Director : MonoBehaviour {
             return;
         }
 
-        Waves[currentWave].WaveBegin();
-        Waves[currentWave].OnWaveComplete += NextWaveInit;
+        Waves[CurrentWave].WaveBegin();
+        CurrentWaveDisplay++;
+        Waves[CurrentWave].OnWaveComplete += NextWaveInit;
     }
 	
 
