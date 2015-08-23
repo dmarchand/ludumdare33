@@ -163,10 +163,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d2490a241361e44e8d0dc046d9f5ed0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 2
+  Speed: 1
   MaxHP: 3
   CurrentHP: 3
-  Name: Guy
+  Name: Weak Hero
+  Gold: 5
   HealthPanel: {fileID: 0}
 --- !u!114 &11478782
 MonoBehaviour:
@@ -249,6 +250,18 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Name
+      value: Weak Hero
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Gold
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Speed
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

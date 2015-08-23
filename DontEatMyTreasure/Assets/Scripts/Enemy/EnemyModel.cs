@@ -6,6 +6,7 @@ public class EnemyModel : MonoBehaviour {
     public float Speed;
     public float MaxHP, CurrentHP;
     public string Name;
+    public int Gold;
     public GameObject HealthPanel;
 
     private AstarAI ai;
@@ -27,6 +28,7 @@ public class EnemyModel : MonoBehaviour {
 
         if (CurrentHP <= 0)
         {
+            GameObject.Find("Player").GetComponent<PlayerModel>().Gold += Gold;
             Destroy(HealthPanel.gameObject);
             Destroy(gameObject);
         }
