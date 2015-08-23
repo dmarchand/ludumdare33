@@ -709,7 +709,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 9
 --- !u!1 &172009170
 GameObject:
   m_ObjectHideFlags: 0
@@ -3979,7 +3979,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11482726, guid: 5159f9bfad62969438c13e6929482207, type: 2}
       propertyPath: Cost
-      value: 50
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 11409730, guid: 5159f9bfad62969438c13e6929482207, type: 2}
       propertyPath: LevelCosts.Array.data[0]
@@ -4911,9 +4911,11 @@ MonoBehaviour:
     m_Alignment: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Kills Enemies
+  m_Text: 'Kills triggering enemy
+
+    Deals half its max HP to all other enemies'
 --- !u!222 &1436854311
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6744,7 +6746,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: .5}
   m_AnchorMax: {x: 1, y: .5}
   m_AnchoredPosition: {x: -145.275024, y: 357.5}
-  m_SizeDelta: {x: 301.450012, y: 46}
+  m_SizeDelta: {x: 301.449951, y: 46}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &2046645947
 MonoBehaviour:

@@ -12,12 +12,20 @@ public class FireTrap : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D collider)
     {
-        var enemy = collider.GetComponent<EnemyModel>();
+        var triggerer = collider.GetComponent<EnemyModel>();
 
-        if (enemy != null)
+        if (triggerer != null)
         {
-            enemy.TakeDamage(Damage);
+            var enemies = GameObject.FindGameObjectsWithTag("Monster");
+
+            foreach (var enemy in enemies)
+            {
+                enemy.GetComponent<EnemyModel>().TakeDamage(triggerer.MaxHP / 2);
+            }
+
+            Destroy(triggerer.gameObject);
             Destroy(this.gameObject);
+            
         }
     }
 }
