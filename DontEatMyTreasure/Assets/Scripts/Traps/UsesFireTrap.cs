@@ -15,7 +15,7 @@ public class UsesFireTrap : UsesTrap {
 	// Update is called once per frame
 	void Update () {
 
-        Cost = BaseCost + (Director.CurrentWave * 10);
+        Cost = BaseCost + (Director.CurrentWave * 15);
         if (Input.GetKeyDown(Key) && playerModel.Gold >= Cost)
         {
             playerModel.Gold -= Cost;

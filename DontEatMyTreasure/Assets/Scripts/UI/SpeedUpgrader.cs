@@ -39,7 +39,7 @@ public class SpeedUpgrader : MonoBehaviour {
         {
             player.Gold -= upgradeCost;
             player.Level++;
-            player.Speed++;
+            player.Speed+=.5f;
         }
     }
 

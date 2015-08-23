@@ -81,7 +81,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: .239999995, y: .239999995}
+  m_Size: {x: .200000003, y: .200000003}
 --- !u!95 &9583372
 Animator:
   serializedVersion: 3
@@ -295,6 +295,14 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_TagString
       value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Size.x
+      value: .200000003
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Size.y
+      value: .200000003
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
