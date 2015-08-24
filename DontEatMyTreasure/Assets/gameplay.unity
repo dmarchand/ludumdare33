@@ -3123,11 +3123,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Waves:
   - SpawnTime: 0
-    Enemy: {fileID: 11477264, guid: 74301b290a4f81d468a218406f14b8ec, type: 2}
+    Enemy: {fileID: 11408702, guid: 57c41aa357df6b5448c7e49b099934b1, type: 2}
   - SpawnTime: 10
-    Enemy: {fileID: 11477264, guid: 74301b290a4f81d468a218406f14b8ec, type: 2}
+    Enemy: {fileID: 11408702, guid: 57c41aa357df6b5448c7e49b099934b1, type: 2}
   - SpawnTime: 10
-    Enemy: {fileID: 11477264, guid: 74301b290a4f81d468a218406f14b8ec, type: 2}
+    Enemy: {fileID: 11408702, guid: 57c41aa357df6b5448c7e49b099934b1, type: 2}
   SpawnerObject: {fileID: 1117207979}
 --- !u!1 &760284042
 GameObject:
@@ -4509,7 +4509,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11409730, guid: 5159f9bfad62969438c13e6929482207, type: 2}
       propertyPath: LevelCosts.Array.data[29]
-      value: 1000
+      value: 10000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5159f9bfad62969438c13e6929482207, type: 2}
@@ -5103,11 +5103,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Waves:
   - SpawnTime: 0
-    Enemy: {fileID: 11477264, guid: 74301b290a4f81d468a218406f14b8ec, type: 2}
+    Enemy: {fileID: 11408702, guid: 57c41aa357df6b5448c7e49b099934b1, type: 2}
   - SpawnTime: 3
-    Enemy: {fileID: 11477264, guid: 74301b290a4f81d468a218406f14b8ec, type: 2}
+    Enemy: {fileID: 11408702, guid: 57c41aa357df6b5448c7e49b099934b1, type: 2}
   - SpawnTime: 12
-    Enemy: {fileID: 11477264, guid: 74301b290a4f81d468a218406f14b8ec, type: 2}
+    Enemy: {fileID: 11408702, guid: 57c41aa357df6b5448c7e49b099934b1, type: 2}
   SpawnerObject: {fileID: 2064379315}
 --- !u!1 &1375417646
 GameObject:

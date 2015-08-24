@@ -10,6 +10,7 @@ public class EnemyModel : MonoBehaviour {
     public GameObject HealthPanel;
 
     private AstarAI ai;
+    public GameObject Shockwave;
 
 	// Use this for initialization
 	void Start () {
@@ -29,6 +30,7 @@ public class EnemyModel : MonoBehaviour {
         if (CurrentHP <= 0)
         {
             GameObject.Find("Player").GetComponent<PlayerModel>().Gold += Gold;
+            Instantiate(Shockwave, transform.position, Quaternion.identity);
             Destroy(HealthPanel.gameObject);
             Destroy(gameObject);
         }

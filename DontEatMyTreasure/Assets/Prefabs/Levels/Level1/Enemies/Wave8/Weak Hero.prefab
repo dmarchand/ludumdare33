@@ -196,6 +196,7 @@ MonoBehaviour:
   Name: Weak Hero
   Gold: 60
   HealthPanel: {fileID: 0}
+  Shockwave: {fileID: 163916, guid: 51d536c3af5a1ab489c11a15901ae386, type: 2}
 --- !u!114 &11490898
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -259,6 +260,10 @@ Prefab:
       propertyPath: Gold
       value: 60
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Shockwave
+      value: 
+      objectReference: {fileID: 163916, guid: 51d536c3af5a1ab489c11a15901ae386, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 119284}
