@@ -50,7 +50,7 @@ public class GetsKnockedBack : MonoBehaviour
 
         var heading = transform.position - player.transform.position;
 
-        AddImpact(heading, 4);
+        AddImpact(heading, 8);
         
 
         var enemyModel = GetComponent<EnemyModel>();

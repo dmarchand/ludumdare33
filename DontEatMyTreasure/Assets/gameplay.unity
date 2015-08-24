@@ -670,17 +670,17 @@ MonoBehaviour:
     Enemy: {fileID: 11470120, guid: 0ec19373d75a5b74597c3f0555e1ee69, type: 2}
   - SpawnTime: 10
     Enemy: {fileID: 11470120, guid: 0ec19373d75a5b74597c3f0555e1ee69, type: 2}
-  - SpawnTime: 20
+  - SpawnTime: 10
     Enemy: {fileID: 11484872, guid: ba02b5ea5f611e747a8af2f42c3df336, type: 2}
-  - SpawnTime: 30
+  - SpawnTime: 10
     Enemy: {fileID: 11404854, guid: 14393a12f8f33ab43ba489eef7df9770, type: 2}
-  - SpawnTime: 35
+  - SpawnTime: 10
     Enemy: {fileID: 11470120, guid: 0ec19373d75a5b74597c3f0555e1ee69, type: 2}
-  - SpawnTime: 40
+  - SpawnTime: 5
     Enemy: {fileID: 11404854, guid: 14393a12f8f33ab43ba489eef7df9770, type: 2}
-  - SpawnTime: 45
+  - SpawnTime: 15
     Enemy: {fileID: 11451154, guid: 627b4ffe92b43aa4ab1833c8e8a2b77c, type: 2}
-  - SpawnTime: 50
+  - SpawnTime: 10
     Enemy: {fileID: 11451154, guid: 627b4ffe92b43aa4ab1833c8e8a2b77c, type: 2}
   SpawnerObject: {fileID: 436075884}
 --- !u!1 &150434717
@@ -957,21 +957,21 @@ MonoBehaviour:
     Enemy: {fileID: 11474766, guid: 27c799660df23434081d1d73a6604cae, type: 2}
   - SpawnTime: 5
     Enemy: {fileID: 11404854, guid: 14393a12f8f33ab43ba489eef7df9770, type: 2}
-  - SpawnTime: 20
+  - SpawnTime: 10
     Enemy: {fileID: 11484872, guid: ba02b5ea5f611e747a8af2f42c3df336, type: 2}
-  - SpawnTime: 25
+  - SpawnTime: 7
     Enemy: {fileID: 11484872, guid: ba02b5ea5f611e747a8af2f42c3df336, type: 2}
-  - SpawnTime: 30
+  - SpawnTime: 8
     Enemy: {fileID: 11474766, guid: 27c799660df23434081d1d73a6604cae, type: 2}
-  - SpawnTime: 35
+  - SpawnTime: 9
     Enemy: {fileID: 11474766, guid: 27c799660df23434081d1d73a6604cae, type: 2}
-  - SpawnTime: 40
+  - SpawnTime: 10
     Enemy: {fileID: 11496054, guid: 51c72b3f7f90f8444872be46d05bf629, type: 2}
-  - SpawnTime: 45
+  - SpawnTime: 10
     Enemy: {fileID: 11451650, guid: 1e7e9e800a0fe7741af166a8e4201434, type: 2}
-  - SpawnTime: 50
+  - SpawnTime: 15
     Enemy: {fileID: 11471130, guid: 86c95274944c2ee4ab99c6d6158b70bf, type: 2}
-  - SpawnTime: 55
+  - SpawnTime: 5
     Enemy: {fileID: 11474766, guid: 27c799660df23434081d1d73a6604cae, type: 2}
   SpawnerObject: {fileID: 561877285}
 --- !u!1 &235963830
@@ -1985,21 +1985,21 @@ MonoBehaviour:
     Enemy: {fileID: 11481830, guid: 02790c8333a24554c892114132fbfe10, type: 2}
   - SpawnTime: 5
     Enemy: {fileID: 11456510, guid: d85fed458e7164949ae382b696d38531, type: 2}
-  - SpawnTime: 20
+  - SpawnTime: 5
     Enemy: {fileID: 11481830, guid: 02790c8333a24554c892114132fbfe10, type: 2}
-  - SpawnTime: 25
+  - SpawnTime: 10
     Enemy: {fileID: 11481830, guid: 02790c8333a24554c892114132fbfe10, type: 2}
-  - SpawnTime: 30
+  - SpawnTime: 10
     Enemy: {fileID: 11481830, guid: 02790c8333a24554c892114132fbfe10, type: 2}
-  - SpawnTime: 35
+  - SpawnTime: 10
     Enemy: {fileID: 11481830, guid: 02790c8333a24554c892114132fbfe10, type: 2}
-  - SpawnTime: 40
+  - SpawnTime: 10
     Enemy: {fileID: 11454366, guid: 43cfa6410564ec54ca1a2917cbcebfbb, type: 2}
-  - SpawnTime: 45
+  - SpawnTime: 10
     Enemy: {fileID: 11454366, guid: 43cfa6410564ec54ca1a2917cbcebfbb, type: 2}
-  - SpawnTime: 50
+  - SpawnTime: 10
     Enemy: {fileID: 11481830, guid: 02790c8333a24554c892114132fbfe10, type: 2}
-  - SpawnTime: 55
+  - SpawnTime: 10
     Enemy: {fileID: 11495586, guid: 2695afea35e15ed4299e79461500c6a7, type: 2}
   SpawnerObject: {fileID: 2064379315}
 --- !u!1 &511974243
@@ -2349,25 +2349,25 @@ MonoBehaviour:
     Enemy: {fileID: 11451154, guid: 627b4ffe92b43aa4ab1833c8e8a2b77c, type: 2}
   - SpawnTime: 10
     Enemy: {fileID: 11451154, guid: 627b4ffe92b43aa4ab1833c8e8a2b77c, type: 2}
-  - SpawnTime: 15
+  - SpawnTime: 10
     Enemy: {fileID: 11470120, guid: 0ec19373d75a5b74597c3f0555e1ee69, type: 2}
   - SpawnTime: 5
     Enemy: {fileID: 11470120, guid: 0ec19373d75a5b74597c3f0555e1ee69, type: 2}
-  - SpawnTime: 20
+  - SpawnTime: 9
     Enemy: {fileID: 11404854, guid: 14393a12f8f33ab43ba489eef7df9770, type: 2}
-  - SpawnTime: 25
+  - SpawnTime: 15
     Enemy: {fileID: 11484872, guid: ba02b5ea5f611e747a8af2f42c3df336, type: 2}
-  - SpawnTime: 30
+  - SpawnTime: 10
     Enemy: {fileID: 11470120, guid: 0ec19373d75a5b74597c3f0555e1ee69, type: 2}
-  - SpawnTime: 35
+  - SpawnTime: 10
     Enemy: {fileID: 11451154, guid: 627b4ffe92b43aa4ab1833c8e8a2b77c, type: 2}
-  - SpawnTime: 40
+  - SpawnTime: 5
     Enemy: {fileID: 11470120, guid: 0ec19373d75a5b74597c3f0555e1ee69, type: 2}
-  - SpawnTime: 45
+  - SpawnTime: 10
     Enemy: {fileID: 11470120, guid: 0ec19373d75a5b74597c3f0555e1ee69, type: 2}
-  - SpawnTime: 50
+  - SpawnTime: 8
     Enemy: {fileID: 11470120, guid: 0ec19373d75a5b74597c3f0555e1ee69, type: 2}
-  - SpawnTime: 55
+  - SpawnTime: 12
     Enemy: {fileID: 11470120, guid: 0ec19373d75a5b74597c3f0555e1ee69, type: 2}
   SpawnerObject: {fileID: 561877285}
 --- !u!1 &590846655
@@ -3760,17 +3760,17 @@ MonoBehaviour:
     Enemy: {fileID: 11474766, guid: 27c799660df23434081d1d73a6604cae, type: 2}
   - SpawnTime: 10
     Enemy: {fileID: 11474766, guid: 27c799660df23434081d1d73a6604cae, type: 2}
-  - SpawnTime: 20
+  - SpawnTime: 8
     Enemy: {fileID: 11451650, guid: 1e7e9e800a0fe7741af166a8e4201434, type: 2}
-  - SpawnTime: 30
+  - SpawnTime: 10
     Enemy: {fileID: 11471130, guid: 86c95274944c2ee4ab99c6d6158b70bf, type: 2}
-  - SpawnTime: 35
+  - SpawnTime: 8
     Enemy: {fileID: 11474766, guid: 27c799660df23434081d1d73a6604cae, type: 2}
-  - SpawnTime: 40
+  - SpawnTime: 10
     Enemy: {fileID: 11474766, guid: 27c799660df23434081d1d73a6604cae, type: 2}
-  - SpawnTime: 45
+  - SpawnTime: 8
     Enemy: {fileID: 11451650, guid: 1e7e9e800a0fe7741af166a8e4201434, type: 2}
-  - SpawnTime: 50
+  - SpawnTime: 10
     Enemy: {fileID: 11496054, guid: 51c72b3f7f90f8444872be46d05bf629, type: 2}
   SpawnerObject: {fileID: 1117207979}
 --- !u!1 &925346264
@@ -4276,11 +4276,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Waves:
   - SpawnTime: 0
-    Enemy: {fileID: 11477264, guid: 74301b290a4f81d468a218406f14b8ec, type: 2}
+    Enemy: {fileID: 11423042, guid: b18bfe033ccc399449ef5bd29bb6b715, type: 2}
   - SpawnTime: 3
-    Enemy: {fileID: 11477264, guid: 74301b290a4f81d468a218406f14b8ec, type: 2}
+    Enemy: {fileID: 11423042, guid: b18bfe033ccc399449ef5bd29bb6b715, type: 2}
   - SpawnTime: 12
-    Enemy: {fileID: 11477264, guid: 74301b290a4f81d468a218406f14b8ec, type: 2}
+    Enemy: {fileID: 11423042, guid: b18bfe033ccc399449ef5bd29bb6b715, type: 2}
   SpawnerObject: {fileID: 2064379315}
 --- !u!1 &1207180582
 GameObject:
@@ -4510,6 +4510,10 @@ Prefab:
     - target: {fileID: 11409730, guid: 5159f9bfad62969438c13e6929482207, type: 2}
       propertyPath: LevelCosts.Array.data[29]
       value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 11409730, guid: 5159f9bfad62969438c13e6929482207, type: 2}
+      propertyPath: Speed
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5159f9bfad62969438c13e6929482207, type: 2}
@@ -4958,13 +4962,13 @@ MonoBehaviour:
   - SpawnTime: 0
     Enemy: {fileID: 11496054, guid: 1fd6243f76bcad94abe208d0722718ba, type: 2}
   - SpawnTime: 3
-    Enemy: {fileID: 11443130, guid: 812c2dbbbd3f1e442b6237d701a43780, type: 2}
+    Enemy: {fileID: 11484944, guid: 26b338da9788e8f4682ebc9bd93b4ea6, type: 2}
   - SpawnTime: 5
-    Enemy: {fileID: 11443130, guid: 812c2dbbbd3f1e442b6237d701a43780, type: 2}
+    Enemy: {fileID: 11484944, guid: 26b338da9788e8f4682ebc9bd93b4ea6, type: 2}
   - SpawnTime: 8
     Enemy: {fileID: 11496054, guid: 1fd6243f76bcad94abe208d0722718ba, type: 2}
   - SpawnTime: 9
-    Enemy: {fileID: 11443130, guid: 812c2dbbbd3f1e442b6237d701a43780, type: 2}
+    Enemy: {fileID: 11484944, guid: 26b338da9788e8f4682ebc9bd93b4ea6, type: 2}
   - SpawnTime: 4
     Enemy: {fileID: 11496054, guid: 1fd6243f76bcad94abe208d0722718ba, type: 2}
   SpawnerObject: {fileID: 1117207979}
@@ -5048,17 +5052,17 @@ MonoBehaviour:
     Enemy: {fileID: 11474766, guid: 27c799660df23434081d1d73a6604cae, type: 2}
   - SpawnTime: 10
     Enemy: {fileID: 11474766, guid: 27c799660df23434081d1d73a6604cae, type: 2}
-  - SpawnTime: 20
+  - SpawnTime: 8
     Enemy: {fileID: 11451650, guid: 1e7e9e800a0fe7741af166a8e4201434, type: 2}
-  - SpawnTime: 30
+  - SpawnTime: 10
     Enemy: {fileID: 11451650, guid: 1e7e9e800a0fe7741af166a8e4201434, type: 2}
-  - SpawnTime: 35
+  - SpawnTime: 8
     Enemy: {fileID: 11474766, guid: 27c799660df23434081d1d73a6604cae, type: 2}
-  - SpawnTime: 40
+  - SpawnTime: 10
     Enemy: {fileID: 11474766, guid: 27c799660df23434081d1d73a6604cae, type: 2}
-  - SpawnTime: 45
+  - SpawnTime: 8
     Enemy: {fileID: 11471130, guid: 86c95274944c2ee4ab99c6d6158b70bf, type: 2}
-  - SpawnTime: 50
+  - SpawnTime: 10
     Enemy: {fileID: 11471130, guid: 86c95274944c2ee4ab99c6d6158b70bf, type: 2}
   SpawnerObject: {fileID: 436075884}
 --- !u!1 &1373674604
@@ -5158,21 +5162,21 @@ MonoBehaviour:
     Enemy: {fileID: 11481830, guid: 02790c8333a24554c892114132fbfe10, type: 2}
   - SpawnTime: 5
     Enemy: {fileID: 11456510, guid: d85fed458e7164949ae382b696d38531, type: 2}
-  - SpawnTime: 20
+  - SpawnTime: 10
     Enemy: {fileID: 11481830, guid: 02790c8333a24554c892114132fbfe10, type: 2}
-  - SpawnTime: 25
+  - SpawnTime: 10
     Enemy: {fileID: 11481830, guid: 02790c8333a24554c892114132fbfe10, type: 2}
-  - SpawnTime: 30
+  - SpawnTime: 10
     Enemy: {fileID: 11481830, guid: 02790c8333a24554c892114132fbfe10, type: 2}
-  - SpawnTime: 35
+  - SpawnTime: 10
     Enemy: {fileID: 11481830, guid: 02790c8333a24554c892114132fbfe10, type: 2}
-  - SpawnTime: 40
+  - SpawnTime: 10
     Enemy: {fileID: 11454366, guid: 43cfa6410564ec54ca1a2917cbcebfbb, type: 2}
-  - SpawnTime: 45
+  - SpawnTime: 10
     Enemy: {fileID: 11454366, guid: 43cfa6410564ec54ca1a2917cbcebfbb, type: 2}
-  - SpawnTime: 50
+  - SpawnTime: 10
     Enemy: {fileID: 11481830, guid: 02790c8333a24554c892114132fbfe10, type: 2}
-  - SpawnTime: 55
+  - SpawnTime: 10
     Enemy: {fileID: 11495586, guid: 2695afea35e15ed4299e79461500c6a7, type: 2}
   SpawnerObject: {fileID: 561877285}
 --- !u!1 &1401267657
@@ -5337,21 +5341,21 @@ MonoBehaviour:
     Enemy: {fileID: 11474766, guid: 27c799660df23434081d1d73a6604cae, type: 2}
   - SpawnTime: 5
     Enemy: {fileID: 11474766, guid: 27c799660df23434081d1d73a6604cae, type: 2}
-  - SpawnTime: 20
+  - SpawnTime: 10
     Enemy: {fileID: 11474766, guid: 27c799660df23434081d1d73a6604cae, type: 2}
-  - SpawnTime: 25
+  - SpawnTime: 7
     Enemy: {fileID: 11474766, guid: 27c799660df23434081d1d73a6604cae, type: 2}
-  - SpawnTime: 30
+  - SpawnTime: 8
     Enemy: {fileID: 11481830, guid: 02790c8333a24554c892114132fbfe10, type: 2}
-  - SpawnTime: 35
+  - SpawnTime: 9
     Enemy: {fileID: 11474766, guid: 27c799660df23434081d1d73a6604cae, type: 2}
-  - SpawnTime: 40
+  - SpawnTime: 10
     Enemy: {fileID: 11474766, guid: 27c799660df23434081d1d73a6604cae, type: 2}
-  - SpawnTime: 45
+  - SpawnTime: 10
     Enemy: {fileID: 11496054, guid: 51c72b3f7f90f8444872be46d05bf629, type: 2}
-  - SpawnTime: 50
+  - SpawnTime: 15
     Enemy: {fileID: 11474766, guid: 27c799660df23434081d1d73a6604cae, type: 2}
-  - SpawnTime: 55
+  - SpawnTime: 5
     Enemy: {fileID: 11474766, guid: 27c799660df23434081d1d73a6604cae, type: 2}
   SpawnerObject: {fileID: 2064379315}
 --- !u!114 &1411172411 stripped
@@ -5599,17 +5603,17 @@ MonoBehaviour:
     Enemy: {fileID: 11481830, guid: 02790c8333a24554c892114132fbfe10, type: 2}
   - SpawnTime: 10
     Enemy: {fileID: 11481830, guid: 02790c8333a24554c892114132fbfe10, type: 2}
-  - SpawnTime: 20
+  - SpawnTime: 10
     Enemy: {fileID: 11431404, guid: db7c9ed65cce4e54587423afd64371f6, type: 2}
-  - SpawnTime: 30
+  - SpawnTime: 5
     Enemy: {fileID: 11454366, guid: 43cfa6410564ec54ca1a2917cbcebfbb, type: 2}
-  - SpawnTime: 35
+  - SpawnTime: 10
     Enemy: {fileID: 11454366, guid: 43cfa6410564ec54ca1a2917cbcebfbb, type: 2}
-  - SpawnTime: 40
+  - SpawnTime: 10
     Enemy: {fileID: 11481830, guid: 02790c8333a24554c892114132fbfe10, type: 2}
-  - SpawnTime: 45
+  - SpawnTime: 10
     Enemy: {fileID: 11481830, guid: 02790c8333a24554c892114132fbfe10, type: 2}
-  - SpawnTime: 50
+  - SpawnTime: 10
     Enemy: {fileID: 11495586, guid: 2695afea35e15ed4299e79461500c6a7, type: 2}
   SpawnerObject: {fileID: 1117207979}
 --- !u!1 &1449865485
@@ -5735,7 +5739,7 @@ MonoBehaviour:
   - SpawnTime: 6
     Enemy: {fileID: 11496054, guid: 1fd6243f76bcad94abe208d0722718ba, type: 2}
   - SpawnTime: 8
-    Enemy: {fileID: 11443130, guid: 812c2dbbbd3f1e442b6237d701a43780, type: 2}
+    Enemy: {fileID: 11484944, guid: 26b338da9788e8f4682ebc9bd93b4ea6, type: 2}
   - SpawnTime: 2
     Enemy: {fileID: 11484944, guid: 26b338da9788e8f4682ebc9bd93b4ea6, type: 2}
   SpawnerObject: {fileID: 561877285}
@@ -6160,11 +6164,11 @@ MonoBehaviour:
   - SpawnTime: 11
     Enemy: {fileID: 11484944, guid: 26b338da9788e8f4682ebc9bd93b4ea6, type: 2}
   - SpawnTime: 15
-    Enemy: {fileID: 11477264, guid: 74301b290a4f81d468a218406f14b8ec, type: 2}
+    Enemy: {fileID: 11484944, guid: 26b338da9788e8f4682ebc9bd93b4ea6, type: 2}
   - SpawnTime: 3
     Enemy: {fileID: 11484944, guid: 26b338da9788e8f4682ebc9bd93b4ea6, type: 2}
   - SpawnTime: 3
-    Enemy: {fileID: 11461940, guid: 1fdb61627a104774cb086136b484c3c4, type: 2}
+    Enemy: {fileID: 11496054, guid: 1fd6243f76bcad94abe208d0722718ba, type: 2}
   SpawnerObject: {fileID: 2064379315}
 --- !u!4 &1611349475 stripped
 Transform:
@@ -6299,17 +6303,17 @@ MonoBehaviour:
     Enemy: {fileID: 11470120, guid: 0ec19373d75a5b74597c3f0555e1ee69, type: 2}
   - SpawnTime: 10
     Enemy: {fileID: 11470120, guid: 0ec19373d75a5b74597c3f0555e1ee69, type: 2}
-  - SpawnTime: 20
+  - SpawnTime: 10
     Enemy: {fileID: 11484872, guid: ba02b5ea5f611e747a8af2f42c3df336, type: 2}
-  - SpawnTime: 30
+  - SpawnTime: 10
     Enemy: {fileID: 11484872, guid: ba02b5ea5f611e747a8af2f42c3df336, type: 2}
-  - SpawnTime: 35
+  - SpawnTime: 10
     Enemy: {fileID: 11484872, guid: ba02b5ea5f611e747a8af2f42c3df336, type: 2}
-  - SpawnTime: 40
+  - SpawnTime: 5
     Enemy: {fileID: 11484872, guid: ba02b5ea5f611e747a8af2f42c3df336, type: 2}
-  - SpawnTime: 45
+  - SpawnTime: 15
     Enemy: {fileID: 11404854, guid: 14393a12f8f33ab43ba489eef7df9770, type: 2}
-  - SpawnTime: 50
+  - SpawnTime: 10
     Enemy: {fileID: 11470120, guid: 0ec19373d75a5b74597c3f0555e1ee69, type: 2}
   SpawnerObject: {fileID: 1117207979}
 --- !u!1 &1673457185
@@ -6697,11 +6701,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Waves:
   - SpawnTime: 0
-    Enemy: {fileID: 11477264, guid: 74301b290a4f81d468a218406f14b8ec, type: 2}
+    Enemy: {fileID: 11423042, guid: b18bfe033ccc399449ef5bd29bb6b715, type: 2}
   - SpawnTime: 3
-    Enemy: {fileID: 11477264, guid: 74301b290a4f81d468a218406f14b8ec, type: 2}
+    Enemy: {fileID: 11423042, guid: b18bfe033ccc399449ef5bd29bb6b715, type: 2}
   - SpawnTime: 12
-    Enemy: {fileID: 11477264, guid: 74301b290a4f81d468a218406f14b8ec, type: 2}
+    Enemy: {fileID: 11423042, guid: b18bfe033ccc399449ef5bd29bb6b715, type: 2}
   SpawnerObject: {fileID: 1117207979}
 --- !u!1 &1834855504
 GameObject:
@@ -7910,17 +7914,17 @@ MonoBehaviour:
     Enemy: {fileID: 11481830, guid: 02790c8333a24554c892114132fbfe10, type: 2}
   - SpawnTime: 10
     Enemy: {fileID: 11481830, guid: 02790c8333a24554c892114132fbfe10, type: 2}
-  - SpawnTime: 20
+  - SpawnTime: 10
     Enemy: {fileID: 11431404, guid: db7c9ed65cce4e54587423afd64371f6, type: 2}
-  - SpawnTime: 30
+  - SpawnTime: 5
     Enemy: {fileID: 11454366, guid: 43cfa6410564ec54ca1a2917cbcebfbb, type: 2}
-  - SpawnTime: 35
+  - SpawnTime: 10
     Enemy: {fileID: 11454366, guid: 43cfa6410564ec54ca1a2917cbcebfbb, type: 2}
-  - SpawnTime: 40
+  - SpawnTime: 10
     Enemy: {fileID: 11481830, guid: 02790c8333a24554c892114132fbfe10, type: 2}
-  - SpawnTime: 45
+  - SpawnTime: 10
     Enemy: {fileID: 11481830, guid: 02790c8333a24554c892114132fbfe10, type: 2}
-  - SpawnTime: 50
+  - SpawnTime: 10
     Enemy: {fileID: 11495586, guid: 2695afea35e15ed4299e79461500c6a7, type: 2}
   SpawnerObject: {fileID: 436075884}
 --- !u!1 &2094481217
@@ -7968,25 +7972,25 @@ MonoBehaviour:
     Enemy: {fileID: 11470120, guid: 0ec19373d75a5b74597c3f0555e1ee69, type: 2}
   - SpawnTime: 10
     Enemy: {fileID: 11404854, guid: 14393a12f8f33ab43ba489eef7df9770, type: 2}
-  - SpawnTime: 15
+  - SpawnTime: 10
     Enemy: {fileID: 11451154, guid: 627b4ffe92b43aa4ab1833c8e8a2b77c, type: 2}
   - SpawnTime: 5
     Enemy: {fileID: 11404854, guid: 14393a12f8f33ab43ba489eef7df9770, type: 2}
-  - SpawnTime: 20
+  - SpawnTime: 9
     Enemy: {fileID: 11470120, guid: 0ec19373d75a5b74597c3f0555e1ee69, type: 2}
-  - SpawnTime: 25
+  - SpawnTime: 15
     Enemy: {fileID: 11470120, guid: 0ec19373d75a5b74597c3f0555e1ee69, type: 2}
-  - SpawnTime: 30
+  - SpawnTime: 10
     Enemy: {fileID: 11470120, guid: 0ec19373d75a5b74597c3f0555e1ee69, type: 2}
-  - SpawnTime: 35
+  - SpawnTime: 10
     Enemy: {fileID: 11404854, guid: 14393a12f8f33ab43ba489eef7df9770, type: 2}
-  - SpawnTime: 40
+  - SpawnTime: 5
     Enemy: {fileID: 11451154, guid: 627b4ffe92b43aa4ab1833c8e8a2b77c, type: 2}
-  - SpawnTime: 45
+  - SpawnTime: 10
     Enemy: {fileID: 11484872, guid: ba02b5ea5f611e747a8af2f42c3df336, type: 2}
-  - SpawnTime: 50
+  - SpawnTime: 8
     Enemy: {fileID: 11404854, guid: 14393a12f8f33ab43ba489eef7df9770, type: 2}
-  - SpawnTime: 55
+  - SpawnTime: 12
     Enemy: {fileID: 11470120, guid: 0ec19373d75a5b74597c3f0555e1ee69, type: 2}
   SpawnerObject: {fileID: 2064379315}
 --- !u!1 &2122753415

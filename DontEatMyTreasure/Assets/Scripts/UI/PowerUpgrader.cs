@@ -41,7 +41,7 @@ public class PowerUpgrader : MonoBehaviour {
         {
             player.Gold -= upgradeCost;
             player.Level++;
-            player.Power++;
+            player.Power+=.5f;
         }
     }
 
