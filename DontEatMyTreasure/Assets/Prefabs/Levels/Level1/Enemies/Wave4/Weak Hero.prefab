@@ -126,7 +126,7 @@ MonoBehaviour:
   MaxHP: 5
   CurrentHP: 5
   Name: Weak Hero
-  Gold: 15
+  Gold: 20
   HealthPanel: {fileID: 0}
 --- !u!114 &11458268
 MonoBehaviour:
@@ -266,6 +266,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_Size.y
       value: .200000003
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Gold
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

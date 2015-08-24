@@ -220,7 +220,7 @@ MonoBehaviour:
   MaxHP: 2
   CurrentHP: 2
   Name: Ranger
-  Gold: 9
+  Gold: 15
   HealthPanel: {fileID: 0}
 --- !u!212 &21287946
 SpriteRenderer:
@@ -266,6 +266,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_Size.y
       value: .200000003
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Gold
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

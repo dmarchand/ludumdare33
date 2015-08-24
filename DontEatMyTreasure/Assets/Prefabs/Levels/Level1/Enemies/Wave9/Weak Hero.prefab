@@ -220,7 +220,7 @@ MonoBehaviour:
   MaxHP: 8
   CurrentHP: 8
   Name: Weak Hero
-  Gold: 30
+  Gold: 150
   HealthPanel: {fileID: 0}
 --- !u!212 &21280316
 SpriteRenderer:
@@ -254,7 +254,11 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: Gold
+      value: 150
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 193462}
